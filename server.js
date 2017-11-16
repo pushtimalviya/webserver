@@ -26,7 +26,7 @@ var middleware = {
 
  app.get('/about',middleware.requiredAuth, function ( req, res) {
 
- 	res.send('about page');
+ 	res.send('about page!');
  })
 
 //console.log(__dirname);
