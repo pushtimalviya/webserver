@@ -9,7 +9,7 @@ var middleware = require('./midWare.js');
  // app.use(middleware.requiredAuth);
 
  app.get( '/', function ( req,res) { 
- 			res.send('helloooo..'); 
+ 			res.send('helloooo.. !'); 
  });
 
  app.get('/about',middleware.requiredAuth, function ( req, res) {
